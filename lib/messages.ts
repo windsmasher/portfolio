@@ -4,7 +4,7 @@ export const messages: Record<
   Locale,
   {
     meta: { title: string; description: string };
-    nav: { stack: string; contact: string; email: string };
+    nav: { stack: string; contact: string };
     langSwitcher: string;
     hero: {
       eyebrow: string;
@@ -14,7 +14,13 @@ export const messages: Record<
       ctaContact: string;
     };
     skills: { eyebrow: string; title: string };
-    contact: { eyebrow: string; title: string; lead: string };
+    contact: {
+      eyebrow: string;
+      title: string;
+      lead: string;
+      copyEmailHint: string;
+      emailCopied: string;
+    };
     footer: { stack: string; email: string };
   }
 > = {
@@ -27,7 +33,6 @@ export const messages: Record<
     nav: {
       stack: 'Stack',
       contact: 'Contact',
-      email: 'Email',
     },
     langSwitcher: 'Language',
     hero: {
@@ -45,6 +50,8 @@ export const messages: Record<
       eyebrow: 'Contact',
       title: "Let's talk",
       lead: "Reach out by email — I'll get back to you as soon as I can.",
+      copyEmailHint: 'Click to copy email address',
+      emailCopied: 'Copied!',
     },
     footer: {
       stack: 'Stack',
@@ -60,7 +67,6 @@ export const messages: Record<
     nav: {
       stack: 'Stack',
       contact: 'Kontakt',
-      email: 'E-mail',
     },
     langSwitcher: 'Język',
     hero: {
@@ -78,6 +84,8 @@ export const messages: Record<
       eyebrow: 'Kontakt',
       title: 'Porozmawiajmy',
       lead: 'Napisz na e-mail — odpowiem, gdy tylko będzie to możliwe.',
+      copyEmailHint: 'Kliknij, aby skopiować adres e-mail',
+      emailCopied: 'Skopiowano!',
     },
     footer: {
       stack: 'Stack',

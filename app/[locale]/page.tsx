@@ -1,9 +1,10 @@
+import { CopyEmailButton } from '@/components/copy-email-button';
 import { LanguageSwitcher } from '@/components/language-switcher';
 import { isLocale } from '@/lib/locales';
 import { messages } from '@/lib/messages';
 import { notFound } from 'next/navigation';
 
-const CONTACT_EMAIL = 'you@example.com';
+const CONTACT_EMAIL = 'paczka94@gmail.com';
 
 const SKILLS = [
   'Node.js',
@@ -52,9 +53,6 @@ export default function HomePage({ params }: HomePageProps) {
 
           <div className="header-actions">
             <LanguageSwitcher locale={locale} ariaLabel={t.langSwitcher} />
-            <a className="button button-ghost" href={`mailto:${CONTACT_EMAIL}`}>
-              {t.nav.email}
-            </a>
           </div>
         </div>
       </header>
@@ -101,9 +99,12 @@ export default function HomePage({ params }: HomePageProps) {
             <h2>{t.contact.title}</h2>
             <p className="lead contact-lead">{t.contact.lead}</p>
             <div className="hero-actions">
-              <a className="button button-primary" href={`mailto:${CONTACT_EMAIL}`}>
-                {CONTACT_EMAIL}
-              </a>
+              <CopyEmailButton
+                email={CONTACT_EMAIL}
+                className="button button-primary"
+                titleHint={t.contact.copyEmailHint}
+                copiedLabel={t.contact.emailCopied}
+              />
             </div>
           </div>
         </section>
