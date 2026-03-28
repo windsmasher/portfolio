@@ -26,8 +26,14 @@ export function SiteChrome({ locale, children }: SiteChromeProps) {
             <Link className="nav-link" href={prefix}>
               {t.nav.home}
             </Link>
+            <Link className="nav-link" href={`${prefix}/career`}>
+              {t.nav.career}
+            </Link>
             <Link className="nav-link" href={`${prefix}/stack`}>
               {t.nav.stack}
+            </Link>
+            <Link className="nav-link" href={`${prefix}/education`}>
+              {t.nav.education}
             </Link>
             <Link className="nav-link" href={`${prefix}/contact`}>
               {t.nav.contact}
@@ -46,8 +52,14 @@ export function SiteChrome({ locale, children }: SiteChromeProps) {
         <div className="container footer-inner">
           <div className="footer-left">© {year} Tomasz Paczka</div>
           <div className="footer-right">
+            <Link className="footer-link" href={`${prefix}/career`}>
+              {t.footer.career}
+            </Link>
             <Link className="footer-link" href={`${prefix}/stack`}>
               {t.footer.stack}
+            </Link>
+            <Link className="footer-link" href={`${prefix}/education`}>
+              {t.footer.education}
             </Link>
             <Link className="footer-link" href={`${prefix}/contact`}>
               {t.footer.contact}

@@ -4,7 +4,7 @@ export const messages: Record<
   Locale,
   {
     meta: { title: string; description: string };
-    nav: { home: string; stack: string; contact: string };
+    nav: { home: string; stack: string; career: string; education: string; contact: string };
     langSwitcher: string;
     home: {
       eyebrow: string;
@@ -23,7 +23,7 @@ export const messages: Record<
       copyEmailHint: string;
       emailCopied: string;
     };
-    footer: { stack: string; contact: string };
+    footer: { stack: string; career: string; education: string; contact: string };
   }
 > = {
   en: {
@@ -35,6 +35,8 @@ export const messages: Record<
     nav: {
       home: 'HOME',
       stack: 'STACK',
+      career: 'CAREER',
+      education: 'EDUCATION',
       contact: 'CONTACT',
     },
     langSwitcher: 'Language',
@@ -67,6 +69,8 @@ export const messages: Record<
     },
     footer: {
       stack: 'STACK',
+      career: 'CAREER',
+      education: 'EDUCATION',
       contact: 'CONTACT',
     },
   },
@@ -79,6 +83,8 @@ export const messages: Record<
     nav: {
       home: 'HOME',
       stack: 'STACK',
+      career: 'KARIERA',
+      education: 'WYKSZTAŁCENIE',
       contact: 'KONTAKT',
     },
     langSwitcher: 'Język',
@@ -111,6 +117,8 @@ export const messages: Record<
     },
     footer: {
       stack: 'STACK',
+      career: 'KARIERA',
+      education: 'WYKSZTAŁCENIE',
       contact: 'KONTAKT',
     },
   },
