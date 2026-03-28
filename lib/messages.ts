@@ -4,16 +4,18 @@ export const messages: Record<
   Locale,
   {
     meta: { title: string; description: string };
-    nav: { stack: string; contact: string };
+    nav: { home: string; stack: string; contact: string };
     langSwitcher: string;
-    hero: {
+    home: {
       eyebrow: string;
-      title: string;
-      lead: string;
-      ctaStack: string;
-      ctaContact: string;
+      headline: string;
+      subline: string;
+      name: string;
+      imageAlt: string;
     };
+    stackPage: { title: string; description: string };
     skills: { eyebrow: string; title: string };
+    contactPage: { title: string; description: string };
     contact: {
       eyebrow: string;
       title: string;
@@ -21,30 +23,40 @@ export const messages: Record<
       copyEmailHint: string;
       emailCopied: string;
     };
-    footer: { stack: string; email: string };
+    footer: { stack: string; contact: string };
   }
 > = {
   en: {
     meta: {
       title: 'Tomasz Paczka',
       description:
-        'Software engineer focused on web applications, APIs, and reliable backend systems.',
+        'Websites and web software. I am currently looking primarily for straightforward company sites and smaller deployments.',
     },
     nav: {
-      stack: 'Stack',
-      contact: 'Contact',
+      home: 'HOME',
+      stack: 'STACK',
+      contact: 'CONTACT',
     },
     langSwitcher: 'Language',
-    hero: {
+    home: {
       eyebrow: 'Software engineer',
-      title: 'I build software for the web',
-      lead: 'Backend systems, APIs, and the infrastructure that keeps products running.',
-      ctaStack: 'View stack',
-      ctaContact: 'Get in touch',
+      headline: 'Company websites and web applications',
+      subline:
+        'I deliver company websites and web-based software. I am currently prioritising clear sites and smaller projects — please get in touch by email.',
+      name: 'Tomasz Paczka',
+      imageAlt: 'Portrait of Tomasz Paczka',
+    },
+    stackPage: {
+      title: 'Stack',
+      description: 'Tools, technologies, and practices I work with.',
     },
     skills: {
       eyebrow: 'Stack',
       title: 'Tools and practices',
+    },
+    contactPage: {
+      title: 'Contact',
+      description: 'Get in touch by email.',
     },
     contact: {
       eyebrow: 'Contact',
@@ -54,31 +66,41 @@ export const messages: Record<
       emailCopied: 'Copied!',
     },
     footer: {
-      stack: 'Stack',
-      email: 'Email',
+      stack: 'STACK',
+      contact: 'CONTACT',
     },
   },
   pl: {
     meta: {
       title: 'Tomasz Paczka',
       description:
-        'Inżynier oprogramowania: aplikacje webowe, API i niezawodne systemy backendowe.',
+        'Strony www i oprogramowanie webowe. Szukam teraz przede wszystkim prostych stron firmowych i małych wdrożeń.',
     },
     nav: {
-      stack: 'Stack',
-      contact: 'Kontakt',
+      home: 'HOME',
+      stack: 'STACK',
+      contact: 'KONTAKT',
     },
     langSwitcher: 'Język',
-    hero: {
+    home: {
       eyebrow: 'Inżynier oprogramowania',
-      title: 'Tworzę oprogramowanie dla sieci',
-      lead: 'Systemy backendowe, API i infrastruktura, na której opierają się produkty.',
-      ctaStack: 'Zobacz stack',
-      ctaContact: 'Napisz do mnie',
+      headline: 'Strony www i aplikacje webowe',
+      subline:
+        'Wdrażam witryny firmowe oraz oprogramowanie webowe. Obecnie priorytetowo przyjmuję czytelne strony i mniejsze projekty — zapraszam do kontaktu mailowego.',
+      name: 'Tomasz Paczka',
+      imageAlt: 'Portret Tomasza Paczki',
+    },
+    stackPage: {
+      title: 'Stack',
+      description: 'Narzędzia, technologie i praktyki, z którymi pracuję.',
     },
     skills: {
       eyebrow: 'Stack',
       title: 'Narzędzia i praktyki',
+    },
+    contactPage: {
+      title: 'Kontakt',
+      description: 'Napisz na e-mail.',
     },
     contact: {
       eyebrow: 'Kontakt',
@@ -88,8 +110,8 @@ export const messages: Record<
       emailCopied: 'Skopiowano!',
     },
     footer: {
-      stack: 'Stack',
-      email: 'E-mail',
+      stack: 'STACK',
+      contact: 'KONTAKT',
     },
   },
 };
