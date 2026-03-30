@@ -343,6 +343,10 @@ a {
   align-items: center;
 }
 
+.container.page-inner-centered {
+  width: min(var(--container), calc(100% - 2rem));
+}
+
 .page-inner-centered .section-heading {
   align-items: center;
   width: 100%;
