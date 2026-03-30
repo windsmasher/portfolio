@@ -44,7 +44,7 @@ export const projectsContent: Record<Locale, ProjectsBundle> = {
       {
         title: 'Planning Poker',
         description:
-          'Simple web app for planning poker in the browser: create a room, share the link, estimate together in real time.',
+          'Simple web app for planning poker.',
         descriptionDetail:
           'The team agrees what to estimate, then everyone picks a value privately and all choices are revealed at once—so you avoid anchoring on whoever speaks first and see how opinions actually spread. Teams in Scrum use this a lot, but it works for any group that needs a quick, fair way to gauge how big or tricky a task feels before you commit to a plan.',
         previewSrc: PREVIEW_PLANNING_POKER,
@@ -85,7 +85,7 @@ export const projectsContent: Record<Locale, ProjectsBundle> = {
     projects: [
       {
         title: 'Planning Poker',
-        description: 'Aplikacja webowa do planning poker.',
+        description: 'Aplikacja webowa do planning pokera.',
         descriptionDetail:
           'Zespół ustala, co ma być oszacowane, potem każdy osobno wybiera swoją „kartę” (np. jak duże lub skomplikowane wydaje mu się zadanie), a dopiero na końcu wszystkie wybory pokazują się naraz. Dzięki temu nikt nie podkręca wyniku pod pierwszą zaproponowaną liczbą i od razu widać, czy wszyscy myślą podobnie. W Scrumie to popularna technika, ale sprawdza się w każdej grupie, która chce szybko i uczciwie zebrać opinie, zanim zaplanuje pracę.',
         previewSrc: PREVIEW_PLANNING_POKER,
