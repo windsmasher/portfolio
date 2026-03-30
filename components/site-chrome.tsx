@@ -32,6 +32,9 @@ export function SiteChrome({ locale, children }: SiteChromeProps) {
             <Link className="nav-link" href={`${prefix}/stack`}>
               {t.nav.stack}
             </Link>
+            <Link className="nav-link" href={`${prefix}/projects`}>
+              {t.nav.projects}
+            </Link>
             <Link className="nav-link" href={`${prefix}/education`}>
               {t.nav.education}
             </Link>
@@ -57,6 +60,9 @@ export function SiteChrome({ locale, children }: SiteChromeProps) {
             </Link>
             <Link className="footer-link" href={`${prefix}/stack`}>
               {t.footer.stack}
+            </Link>
+            <Link className="footer-link" href={`${prefix}/projects`}>
+              {t.footer.projects}
             </Link>
             <Link className="footer-link" href={`${prefix}/education`}>
               {t.footer.education}

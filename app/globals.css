@@ -369,6 +369,101 @@ a {
   width: 100%;
 }
 
+.page-inner-centered.projects-page {
+  align-items: stretch;
+  max-width: min(52rem, 100%);
+}
+
+.page-inner-centered.projects-page .projects-grid {
+  text-align: left;
+}
+
+.projects-intro {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  color: var(--muted-strong);
+  line-height: 1.55;
+  text-align: center;
+  max-width: 44ch;
+  align-self: center;
+}
+
+.projects-preview-hint {
+  margin: 0 0 1.75rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.45;
+  text-align: center;
+  max-width: 48ch;
+  align-self: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.project-card-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.project-card-desc {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--muted-strong);
+}
+
+.project-preview-link {
+  display: block;
+  border-radius: 6px;
+  outline-offset: 3px;
+}
+
+.project-preview-link:focus-visible {
+  outline: 2px solid var(--text);
+}
+
+.project-preview-shell {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: var(--bg1);
+}
+
+.project-preview-img {
+  object-fit: cover;
+  object-position: top center;
+}
+
+.project-card-link {
+  align-self: flex-start;
+  margin-top: 0.35rem;
+}
+
 .page-inner-centered.career-page {
   align-items: stretch;
   max-width: min(40rem, 100%);
