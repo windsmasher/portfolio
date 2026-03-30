@@ -482,13 +482,12 @@ a {
   display: block;
 }
 
+/* Position (fixed) and max-width come from project-desc-tooltip.tsx for viewport clamping. */
 .project-desc-tooltip {
-  position: absolute;
   z-index: 25;
-  left: 50%;
-  bottom: calc(100% + 0.45rem);
-  transform: translateX(-50%);
-  width: min(17.5rem, calc(100vw - 2.5rem));
+  box-sizing: border-box;
+  width: max-content;
+  max-width: min(17.5rem, calc(100vw - 2.5rem));
   padding: 0.6rem 0.7rem;
   font-size: 0.8125rem;
   line-height: 1.45;
@@ -505,26 +504,16 @@ a {
   transition: opacity 120ms ease, visibility 120ms ease;
 }
 
-/* Icon sits at the end of the line on mobile; centering overflows past the right edge. */
-@media (max-width: 767px) {
-  .project-desc-tooltip {
-    left: auto;
-    right: 0;
-    transform: none;
-  }
+.project-desc-tooltip.project-desc-tooltip--visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 @media (prefers-color-scheme: dark) {
   .project-desc-tooltip {
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
   }
-}
-
-.project-desc-info-host:hover .project-desc-tooltip,
-.project-desc-info-host:focus-within .project-desc-tooltip {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
 }
 
 .project-preview-link {

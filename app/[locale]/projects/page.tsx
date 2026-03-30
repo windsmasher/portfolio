@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
+import { ProjectDescTooltip } from '@/components/project-desc-tooltip';
 import { SiteChrome } from '@/components/site-chrome';
 import { isLocale } from '@/lib/locales';
 import { messages } from '@/lib/messages';
@@ -55,43 +56,11 @@ export default function ProjectsPage({ params }: ProjectsPageProps) {
                   <p className="project-card-desc">
                     <span className="project-card-desc-text">{project.description}</span>
                     {project.descriptionDetail ? (
-                      <span className="project-desc-info-host">
-                        <button
-                          type="button"
-                          className="project-desc-info"
-                          aria-describedby={`project-desc-tip-${index}`}
-                          aria-label={p.moreInfoLabel}
-                        >
-                          <svg
-                            className="project-desc-info-icon"
-                            viewBox="0 0 16 16"
-                            width={14}
-                            height={14}
-                            aria-hidden
-                            focusable="false"
-                          >
-                            <circle
-                              cx="8"
-                              cy="8"
-                              r="6.5"
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth="1.25"
-                            />
-                            <path
-                              fill="currentColor"
-                              d="M8 4.1a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Zm-.6 3.15h1.2v4.65H7.4Z"
-                            />
-                          </svg>
-                        </button>
-                        <span
-                          id={`project-desc-tip-${index}`}
-                          role="tooltip"
-                          className="project-desc-tooltip"
-                        >
-                          {project.descriptionDetail}
-                        </span>
-                      </span>
+                      <ProjectDescTooltip
+                        id={`project-desc-tip-${index}`}
+                        detail={project.descriptionDetail}
+                        moreInfoLabel={p.moreInfoLabel}
+                      />
                     ) : null}
                   </p>
                   <a
