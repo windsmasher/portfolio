@@ -49,10 +49,51 @@ export default function ProjectsPage({ params }: ProjectsPageProps) {
             <p className="projects-preview-hint">{p.previewHint}</p>
 
             <div className="projects-grid">
-              {p.projects.map((project) => (
+              {p.projects.map((project, index) => (
                 <article key={project.linkUrl} className="project-card">
                   <h2 className="project-card-title">{project.title}</h2>
-                  <p className="project-card-desc">{project.description}</p>
+                  <p className="project-card-desc">
+                    <span className="project-card-desc-text">{project.description}</span>
+                    {project.descriptionDetail ? (
+                      <span className="project-desc-info-host">
+                        <button
+                          type="button"
+                          className="project-desc-info"
+                          aria-describedby={`project-desc-tip-${index}`}
+                          aria-label={p.moreInfoLabel}
+                        >
+                          <svg
+                            className="project-desc-info-icon"
+                            viewBox="0 0 16 16"
+                            width={14}
+                            height={14}
+                            aria-hidden
+                            focusable="false"
+                          >
+                            <circle
+                              cx="8"
+                              cy="8"
+                              r="6.5"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="1.25"
+                            />
+                            <path
+                              fill="currentColor"
+                              d="M8 4.1a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Zm-.6 3.15h1.2v4.65H7.4Z"
+                            />
+                          </svg>
+                        </button>
+                        <span
+                          id={`project-desc-tip-${index}`}
+                          role="tooltip"
+                          className="project-desc-tooltip"
+                        >
+                          {project.descriptionDetail}
+                        </span>
+                      </span>
+                    ) : null}
+                  </p>
                   <a
                     href={project.linkUrl}
                     target="_blank"
