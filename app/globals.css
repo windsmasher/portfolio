@@ -505,6 +505,15 @@ a {
   transition: opacity 120ms ease, visibility 120ms ease;
 }
 
+/* Icon sits at the end of the line on mobile; centering overflows past the right edge. */
+@media (max-width: 767px) {
+  .project-desc-tooltip {
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .project-desc-tooltip {
     box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
