@@ -27,18 +27,6 @@ export const careerContent: Record<Locale, CareerBundle> = {
     jobs: [
       {
         role: 'Senior Software Engineer',
-        company: 'Zan',
-        period: 'Nov 2025 — present',
-        bullets: [
-          'Built a full e-commerce platform from scratch in a small, high-impact team',
-          'Backend and frontend architecture on Medusa v2',
-          'Scalable APIs and business logic with Node.js and modern web stack',
-          'End-to-end ownership from system design to production',
-          'Close collaboration with product and business stakeholders',
-        ],
-      },
-      {
-        role: 'Senior Software Engineer',
         company: 'Future Processing',
         location: 'Gliwice',
         period: 'Sep 2025 — present',
@@ -47,6 +35,18 @@ export const careerContent: Record<Locale, CareerBundle> = {
           'High-traffic e-commerce for airport retail platforms',
           'Cross-functional delivery of business-critical features',
           'Code quality through reviews, testing, and solid engineering practices',
+        ],
+      },
+      {
+        role: 'Senior Software Engineer (Part-time)',
+        company: 'Zan',
+        period: 'Nov 2025 — Jun 2026',
+        bullets: [
+          'Built a full e-commerce platform from scratch in a small, high-impact team',
+          'Backend and frontend architecture on Medusa v2',
+          'Scalable APIs and business logic with Node.js and modern web stack',
+          'End-to-end ownership from system design to production',
+          'Close collaboration with product and business stakeholders',
         ],
       },
       {
@@ -121,18 +121,6 @@ export const careerContent: Record<Locale, CareerBundle> = {
     jobs: [
       {
         role: 'Senior Software Engineer',
-        company: 'Zan',
-        period: 'lis 2025 — obecnie',
-        bullets: [
-          'Budowa platformy e-commerce od zera w małym, efektywnym zespole',
-          'Architektura backendu i frontendu oparta o Medusa v2',
-          'Skalowalne API i logika biznesowa w Node.js i nowoczesnym stacku webowym',
-          'Odpowiedzialność end-to-end: od projektu systemu do produkcji',
-          'Ścisła współpraca z productem i stroną biznesową',
-        ],
-      },
-      {
-        role: 'Senior Software Engineer',
         company: 'Future Processing',
         location: 'Gliwice',
         period: 'wrz 2025 — obecnie',
@@ -141,6 +129,18 @@ export const careerContent: Record<Locale, CareerBundle> = {
           'Systemy e-commerce o dużym ruchu dla retailu lotniskowego',
           'Realizacja krytycznych funkcji w zespole międzyfunkcyjnym',
           'Jakość kodu: przeglądy, testy, dobre praktyki inżynierskie',
+        ],
+      },
+      {
+        role: 'Senior Software Engineer (Część-czasowo)',
+        company: 'Zan',
+        period: 'lis 2025 — cze 2026',
+        bullets: [
+          'Budowa platformy e-commerce od zera w małym, efektywnym zespole',
+          'Architektura backendu i frontendu oparta o Medusa v2',
+          'Skalowalne API i logika biznesowa w Node.js i nowoczesnym stacku webowym',
+          'Odpowiedzialność end-to-end: od projektu systemu do produkcji',
+          'Ścisła współpraca z productem i stroną biznesową',
         ],
       },
       {
