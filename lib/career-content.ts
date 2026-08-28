@@ -73,7 +73,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         ],
       },
       {
-        role: 'Software Engineer',
+        role: 'Software Engineer (Part-time)',
         company: 'ActivNet',
         period: 'Jan 2022 — May 2022',
         bullets: [
@@ -132,7 +132,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         ],
       },
       {
-        role: 'Senior Software Engineer (Część-czasowo)',
+        role: 'Senior Software Engineer (Niepełny etat)',
         company: 'Zan',
         period: 'lis 2025 — cze 2026',
         bullets: [
@@ -167,7 +167,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         ],
       },
       {
-        role: 'Software Engineer',
+        role: 'Software Engineer (Niepełny etat)',
         company: 'ActivNet',
         period: 'sty 2022 — maj 2022',
         bullets: [
