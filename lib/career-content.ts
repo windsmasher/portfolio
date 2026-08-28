@@ -40,6 +40,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
       {
         role: 'Senior Software Engineer (Part-time)',
         company: 'Zan',
+        location: 'Saudi Arabia',
         period: 'Nov 2025 — Jun 2026',
         bullets: [
           'Built a full e-commerce platform from scratch in a small, high-impact team',
@@ -134,6 +135,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
       {
         role: 'Senior Software Engineer (Niepełny etat)',
         company: 'Zan',
+        location: 'Arabia Saudyjska',
         period: 'lis 2025 — cze 2026',
         bullets: [
           'Budowa platformy e-commerce od zera w małym, efektywnym zespole',
