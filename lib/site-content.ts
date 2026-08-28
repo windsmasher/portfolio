@@ -13,4 +13,7 @@ export const SKILLS = [
   'Domain-driven design',
   'TDD',
   'CI/CD',
+  'Claude Code',
+  'ChatGPT',
+  'Cursor',
 ] as const;
