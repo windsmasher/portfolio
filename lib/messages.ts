@@ -38,7 +38,7 @@ export const messages: Record<
     meta: {
       title: 'Tomasz Paczka',
       description:
-        'Websites and web software. I am currently looking primarily for straightforward company sites and smaller deployments.',
+        'Senior Software Engineer specialising in Node.js, TypeScript, and scalable backend systems for high-traffic e-commerce platforms.',
     },
     nav: {
       home: 'HOME',
@@ -50,10 +50,10 @@ export const messages: Record<
     },
     langSwitcher: 'Language',
     home: {
-      eyebrow: 'Software engineer',
-      headline: 'Company websites and web applications',
+      eyebrow: 'Senior Software Engineer',
+      headline: 'Backend systems that scale',
       subline:
-        'I deliver company websites and web-based software. I am currently prioritising clear sites and smaller projects — please get in touch by email.',
+        '6+ years designing and building high-traffic backend systems — from a ~300-microservice platform handling millions of orders to e-commerce platforms built from the ground up. I work mainly with Node.js, TypeScript, and distributed architectures, and I care about code quality as much as shipping fast.',
       name: 'Tomasz Paczka',
       imageAlt: 'Portrait of Tomasz Paczka',
     },
@@ -90,7 +90,7 @@ export const messages: Record<
     meta: {
       title: 'Tomasz Paczka',
       description:
-        'Strony www i oprogramowanie webowe. Szukam teraz przede wszystkim prostych stron firmowych i małych wdrożeń.',
+        'Senior Software Engineer specjalizujący się w Node.js, TypeScript i skalowalnych systemach backendowych dla platform e-commerce o dużym ruchu.',
     },
     nav: {
       home: 'HOME',
@@ -102,10 +102,10 @@ export const messages: Record<
     },
     langSwitcher: 'Język',
     home: {
-      eyebrow: 'Inżynier oprogramowania',
-      headline: 'Strony www i aplikacje webowe',
+      eyebrow: 'Senior Software Engineer',
+      headline: 'Systemy backendowe, które się skalują',
       subline:
-        'Wdrażam witryny firmowe oraz oprogramowanie webowe. Obecnie priorytetowo przyjmuję czytelne strony i mniejsze projekty — zapraszam do kontaktu mailowego.',
+        'Ponad 6 lat projektowania i budowania systemów backendowych o dużym natężeniu ruchu — od platformy złożonej z ok. 300 mikroserwisów obsługującej miliony zamówień, po platformy e-commerce budowane od zera. Pracuję głównie w Node.js, TypeScript i architekturach rozproszonych, dbając zarówno o jakość kodu, jak i tempo dostarczania.',
       name: 'Tomasz Paczka',
       imageAlt: 'Portret Tomasza Paczki',
     },
