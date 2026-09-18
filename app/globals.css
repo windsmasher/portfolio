@@ -252,6 +252,10 @@ a {
   color: var(--muted);
 }
 
+.home-cv-link {
+  margin-top: 1.5rem;
+}
+
 .hero {
   padding: 4rem 0 2rem;
 }
@@ -350,6 +354,10 @@ a {
 .page-inner-centered .section-heading {
   align-items: center;
   width: 100%;
+}
+
+.career-cv-link {
+  margin-top: 0.5rem;
 }
 
 .page-inner-centered .chips {

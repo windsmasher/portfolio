@@ -34,6 +34,7 @@ export default function CareerPage({ params }: CareerPageProps) {
 
   const locale = params.locale;
   const c = careerContent[locale];
+  const t = messages[locale];
 
   return (
     <SiteChrome locale={locale}>
@@ -43,6 +44,14 @@ export default function CareerPage({ params }: CareerPageProps) {
             <div className="section-heading">
               <div className="eyebrow">{c.eyebrow}</div>
               <h1>{c.title}</h1>
+              <a
+                className="button button-secondary career-cv-link"
+                href="https://windsmasher.github.io/CV/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t.cv}
+              </a>
             </div>
 
             <ol className="career-list">

@@ -56,6 +56,14 @@ export default function HomePage({ params }: HomePageProps) {
           <h1 className="home-headline">{t.home.headline}</h1>
           <p className="home-subline">{t.home.subline}</p>
           <p className="home-name">{t.home.name}</p>
+          <a
+            className="button button-secondary home-cv-link"
+            href="https://windsmasher.github.io/CV/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.cv}
+          </a>
         </div>
       </main>
     </SiteChrome>

@@ -30,7 +30,8 @@ export const messages: Record<
       copyEmailHint: string;
       emailCopied: string;
     };
-    footer: { stack: string; career: string; projects: string; education: string; contact: string };
+    footer: { stack: string; career: string; projects: string; education: string; contact: string; cv: string };
+    cv: string;
   }
 > = {
   en: {
@@ -81,7 +82,9 @@ export const messages: Record<
       projects: 'PROJECTS',
       education: 'EDUCATION',
       contact: 'CONTACT',
+      cv: 'CV',
     },
+    cv: 'CV',
   },
   pl: {
     meta: {
@@ -131,6 +134,8 @@ export const messages: Record<
       projects: 'PROJEKTY',
       education: 'WYKSZTAŁCENIE',
       contact: 'KONTAKT',
+      cv: 'CV',
     },
+    cv: 'CV',
   },
 };
