@@ -722,6 +722,10 @@ a {
   gap: 0.5rem;
 }
 
+.stack-integrations-heading {
+  margin-top: 2rem;
+}
+
 .chip {
   border-radius: 6px;
   padding: 0.45rem 0.7rem;
@@ -736,6 +740,12 @@ a {
 .chip:hover {
   border-color: rgba(10, 10, 10, 0.22);
   background: var(--accent-surface);
+}
+
+.chip-magnify {
+  transform-origin: center;
+  transition: transform 120ms ease-out, border-color 140ms ease, background-color 140ms ease;
+  will-change: transform;
 }
 
 @media (prefers-color-scheme: dark) {

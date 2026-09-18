@@ -30,14 +30,14 @@ const PREVIEW_PLANNING_POKER = '/images/projects/planning-poker.png';
 export const projectsContent: Record<Locale, ProjectsBundle> = {
   en: {
     meta: {
-      title: 'Projects',
+      title: 'Side projects',
       description:
-        'Client websites (psychotherapy, hair salon) and Planning Poker — a simple real-time estimation web app.',
+        'Side projects outside full-time work: client websites (psychotherapy, hair salon) and Planning Poker — a simple real-time estimation web app.',
     },
-    eyebrow: 'Projects',
+    eyebrow: 'Side projects',
     title: 'Selected work',
     intro:
-      'Freelance websites plus a small side project — screenshot previews; open the live site via the image or the button.',
+      'A few things I\'ve built on the side, outside full-time work — freelance client sites and one small tool of my own. Screenshot previews below; open the live site via the image or the button.',
     previewHint: 'Click the preview or the button to open the website in a new tab.',
     moreInfoLabel: 'What planning poker is — full explanation',
     projects: [
@@ -72,14 +72,14 @@ export const projectsContent: Record<Locale, ProjectsBundle> = {
   },
   pl: {
     meta: {
-      title: 'Projekty',
+      title: 'Projekty poboczne',
       description:
-        'Strony dla klientów (psychoterapia, salon Polka) oraz Planning Poker — prosta aplikacja do wspólnego szacowania w czasie rzeczywistym.',
+        'Projekty poboczne, realizowane poza pracą na pełen etat: strony dla klientów (psychoterapia, salon Polka) oraz Planning Poker — prosta aplikacja do wspólnego szacowania w czasie rzeczywistym.',
     },
-    eyebrow: 'Projekty',
+    eyebrow: 'Projekty poboczne',
     title: 'Wybrane prace',
     intro:
-      'Strony zleceń oraz mała aplikacja własna — poniżej zrzuty ekranu; żywą witrynę otworzysz z obrazka lub przycisku.',
+      'Kilka rzeczy, które zrobiłem po godzinach, poza pracą na pełen etat — strony dla klientów na zlecenie oraz jedna mała aplikacja własna. Poniżej zrzuty ekranu; żywą witrynę otworzysz z obrazka lub przycisku.',
     previewHint: 'Kliknij podgląd albo przycisk, aby otworzyć stronę w nowej karcie.',
     moreInfoLabel: 'Wyjaśnienie, na czym polega planning poker',
     projects: [

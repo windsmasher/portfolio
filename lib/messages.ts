@@ -21,6 +21,7 @@ export const messages: Record<
     };
     stackPage: { title: string; description: string };
     skills: { eyebrow: string; title: string };
+    integrations: { title: string };
     contactPage: { title: string; description: string };
     contact: {
       eyebrow: string;
@@ -64,6 +65,9 @@ export const messages: Record<
     skills: {
       eyebrow: 'Stack',
       title: 'Tools and practices',
+    },
+    integrations: {
+      title: 'Integrations',
     },
     contactPage: {
       title: 'Contact',
@@ -117,6 +121,9 @@ export const messages: Record<
     skills: {
       eyebrow: 'Stack',
       title: 'Narzędzia i praktyki',
+    },
+    integrations: {
+      title: 'Integracje',
     },
     contactPage: {
       title: 'Kontakt',

@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 
+import { INTEGRATIONS } from '@/lib/site-content';
+
 export const metadata: Metadata = {
   title: 'CV - Tomasz Paczka',
   description:
@@ -9,7 +11,9 @@ export const metadata: Metadata = {
 export default function CvPage() {
   return (
     <div className="cv-page">
-      <style>{`
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
         .cv-page, .cv-page *, .cv-page *::before, .cv-page *::after {
           margin: 0;
           padding: 0;
@@ -289,7 +293,9 @@ export default function CvPage() {
             padding: 30px 25px;
           }
         }
-      `}</style>
+      `,
+        }}
+      />
 
       <div className="cv-container">
         {/* Sidebar */}
@@ -359,6 +365,10 @@ export default function CvPage() {
               <div className="cv-skill-item">
                 <strong>AI Usage</strong>
                 Claude Code, ChatGPT, Cursor
+              </div>
+              <div className="cv-skill-item">
+                <strong>Integrations</strong>
+                {INTEGRATIONS.join(', ')}
               </div>
             </div>
 

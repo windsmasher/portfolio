@@ -1,11 +1,20 @@
 export const CONTACT_EMAIL = 'paczka94@gmail.com';
 
 export const SKILLS = [
+  'TypeScript',
+  'JavaScript',
   'Node.js',
+  'Express',
   'NestJS',
+  'GraphQL',
+  'REST',
   'MongoDB',
   'PostgreSQL',
   'Redis',
+  'RabbitMQ',
+  'Kafka',
+  'Elasticsearch',
+  'Kibana',
   'Docker',
   'Microservices',
   'API design',
@@ -16,4 +25,16 @@ export const SKILLS = [
   'Claude Code',
   'ChatGPT',
   'Cursor',
+] as const;
+
+export const INTEGRATIONS = [
+  'Shopify',
+  'BitLabs',
+  'Rithum',
+  'Stripe',
+  'PayPal',
+  'Klarna',
+  'FedEx',
+  'UPS',
+  'Canada Post',
 ] as const;

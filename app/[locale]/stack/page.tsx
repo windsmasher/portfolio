@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
+import { MagnifyChips } from '@/components/magnify-chips';
 import { SiteChrome } from '@/components/site-chrome';
 import { isLocale } from '@/lib/locales';
 import { messages } from '@/lib/messages';
-import { SKILLS } from '@/lib/site-content';
+import { INTEGRATIONS, SKILLS } from '@/lib/site-content';
 
 type StackPageProps = {
   params: { locale: string };
@@ -44,13 +45,12 @@ export default function StackPage({ params }: StackPageProps) {
               <div className="eyebrow">{t.skills.eyebrow}</div>
               <h1>{t.skills.title}</h1>
             </div>
-            <div className="chips" role="list">
-              {SKILLS.map((skill) => (
-                <span key={skill} className="chip" role="listitem">
-                  {skill}
-                </span>
-              ))}
+            <MagnifyChips items={SKILLS} />
+
+            <div className="section-heading stack-integrations-heading">
+              <h2>{t.integrations.title}</h2>
             </div>
+            <MagnifyChips items={INTEGRATIONS} />
           </div>
         </section>
       </main>

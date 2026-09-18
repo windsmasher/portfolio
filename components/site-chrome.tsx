@@ -41,6 +41,9 @@ export function SiteChrome({ locale, children }: SiteChromeProps) {
             <Link className="nav-link" href={`${prefix}/contact`}>
               {t.nav.contact}
             </Link>
+            <Link className="nav-link" href="/cv">
+              {t.cv}
+            </Link>
           </nav>
 
           <div className="header-actions">
