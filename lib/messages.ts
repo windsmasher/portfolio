@@ -53,7 +53,7 @@ export const messages: Record<
       eyebrow: 'Senior Software Engineer',
       headline: 'Backend systems that scale',
       subline:
-        '6+ years designing and building high-traffic backend systems — from a ~300-microservice platform handling millions of orders to e-commerce platforms built from the ground up. I work mainly with Node.js, TypeScript, and distributed architectures, and I care about code quality as much as shipping fast.',
+        'Results-driven Senior Software Engineer with extensive experience in designing and implementing scalable solutions, particularly in e-commerce platforms. Proficient in Node.js and modern web technologies, I have successfully developed high-traffic backend services and managed complex microservices architectures. My strong collaboration with cross-functional teams ensures delivery of robust and innovative products that meet business needs. Holding a Master\'s degree in Computer Science, I blend technical acumen with a commitment to code quality and system optimization.',
       name: 'Tomasz Paczka',
       imageAlt: 'Portrait of Tomasz Paczka',
     },
@@ -105,7 +105,7 @@ export const messages: Record<
       eyebrow: 'Senior Software Engineer',
       headline: 'Systemy backendowe, które się skalują',
       subline:
-        'Ponad 6 lat projektowania i budowania systemów backendowych o dużym natężeniu ruchu — od platformy złożonej z ok. 300 mikroserwisów obsługującej miliony zamówień, po platformy e-commerce budowane od zera. Pracuję głównie w Node.js, TypeScript i architekturach rozproszonych, dbając zarówno o jakość kodu, jak i tempo dostarczania.',
+        'Zorientowany na wyniki Senior Software Engineer z bogatym doświadczeniem w projektowaniu i wdrażaniu skalowalnych rozwiązań, szczególnie w platformach e-commerce. Biegły w Node.js i nowoczesnych technologiach webowych, z sukcesem tworzyłem backendowe usługi o dużym ruchu i zarządzałem złożonymi architekturami mikroserwisowymi. Silna współpraca z zespołami międzyfunkcyjnymi zapewnia dostarczanie solidnych i innowacyjnych produktów odpowiadających potrzebom biznesowym. Mając tytuł magistra informatyki, łączę wiedzę techniczną z dbałością o jakość kodu i optymalizację systemów.',
       name: 'Tomasz Paczka',
       imageAlt: 'Portret Tomasza Paczki',
     },

@@ -235,12 +235,12 @@ a {
 
 .home-subline {
   margin: 1rem 0 0;
-  max-width: 54ch;
+  max-width: 60ch;
   font-size: 0.98rem;
   font-weight: 400;
   line-height: 1.65;
   color: var(--muted);
-  text-wrap: balance;
+  text-align: left;
 }
 
 .home-name {
