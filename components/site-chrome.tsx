@@ -70,14 +70,9 @@ export function SiteChrome({ locale, children }: SiteChromeProps) {
             <Link className="footer-link" href={`${prefix}/contact`}>
               {t.footer.contact}
             </Link>
-            <a
-              className="footer-link"
-              href="https://windsmasher.github.io/CV/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link className="footer-link" href="/cv">
               {t.footer.cv}
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import { CareerImageLightbox } from '@/components/career-image-lightbox';
@@ -45,14 +46,9 @@ export default function CareerPage({ params }: CareerPageProps) {
             <div className="section-heading">
               <div className="eyebrow">{c.eyebrow}</div>
               <h1>{c.title}</h1>
-              <a
-                className="button button-secondary career-cv-link"
-                href="https://windsmasher.github.io/CV/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link className="button button-secondary career-cv-link" href="/cv">
                 {t.cv}
-              </a>
+              </Link>
             </div>
 
             <ol className="career-list">
