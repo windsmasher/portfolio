@@ -6,12 +6,14 @@ export type CareerJob = {
   location?: string;
   period: string;
   bullets: string[];
+  image?: { src: string; alt: string };
 };
 
 type CareerBundle = {
   meta: { title: string; description: string };
   eyebrow: string;
   title: string;
+  imageCloseLabel: string;
   jobs: CareerJob[];
 };
 
@@ -24,6 +26,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
     },
     eyebrow: 'Career',
     title: 'Work experience',
+    imageCloseLabel: 'Close image',
     jobs: [
       {
         role: 'Senior Software Engineer',
@@ -62,6 +65,10 @@ export const careerContent: Record<Locale, CareerBundle> = {
           'Supported a mobile-first product (iOS / Android), strong U.S. app-store presence',
           'Scaled to nearly 5 million orders (over 2M in 2024), USA and Canada',
         ],
+        image: {
+          src: '/images/career/flip-shutdown.png',
+          alt: 'Flip shutdown announcement: 16.5M people joined, 10M videos uploaded, 5B video views, 22B post and creator engagements, 4.6M creators contributed, $13.4M paid to creators, 12k active brands, $375M sales for brands',
+        },
       },
       {
         role: 'Software Engineer',
@@ -119,6 +126,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
     },
     eyebrow: 'Kariera',
     title: 'Doświadczenie zawodowe',
+    imageCloseLabel: 'Zamknij obraz',
     jobs: [
       {
         role: 'Senior Software Engineer',
@@ -157,6 +165,10 @@ export const careerContent: Record<Locale, CareerBundle> = {
           'Wsparcie aplikacji mobile-first (iOS / Android), silna pozycja w rankingach w USA',
           'Skala: blisko 5 mln zamówień (ponad 2 mln w 2024), USA i Kanada',
         ],
+        image: {
+          src: '/images/career/flip-shutdown.png',
+          alt: 'Ogłoszenie o zamknięciu Flip: 16,5 mln dołączonych osób, 10 mln przesłanych filmów, 5 mld wyświetleń filmów, 22 mld interakcji z postami i twórcami, 4,6 mln twórców, 13,4 mln USD wypłaconych twórcom, 12 tys. aktywnych marek, 375 mln USD sprzedaży dla marek',
+        },
       },
       {
         role: 'Software Engineer',

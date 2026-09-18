@@ -612,6 +612,70 @@ a {
   margin-top: 0.35rem;
 }
 
+.career-image-thumb {
+  display: block;
+  width: 56px;
+  margin-top: 0.75rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  background: none;
+  cursor: zoom-in;
+  line-height: 0;
+  transition: border-color 140ms ease, transform 140ms ease;
+}
+
+.career-image-thumb:hover {
+  border-color: var(--muted);
+  transform: translateY(-1px);
+}
+
+.career-image-thumb-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.career-image-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+  background: rgba(0, 0, 0, 0.72);
+  cursor: zoom-out;
+}
+
+.career-image-lightbox-img {
+  display: block;
+  max-width: min(420px, 100%);
+  max-height: 100%;
+  border-radius: 6px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  cursor: default;
+}
+
+.career-image-lightbox-close {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
 .page-inner-centered.education-page {
   align-items: stretch;
   max-width: min(40rem, 100%);

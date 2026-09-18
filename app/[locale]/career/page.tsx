@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 
+import { CareerImageLightbox } from '@/components/career-image-lightbox';
 import { SiteChrome } from '@/components/site-chrome';
 import { careerContent } from '@/lib/career-content';
 import { isLocale } from '@/lib/locales';
@@ -70,6 +71,13 @@ export default function CareerPage({ params }: CareerPageProps) {
                       <li key={line}>{line}</li>
                     ))}
                   </ul>
+                  {job.image ? (
+                    <CareerImageLightbox
+                      src={job.image.src}
+                      alt={job.image.alt}
+                      closeLabel={c.imageCloseLabel}
+                    />
+                  ) : null}
                 </li>
               ))}
             </ol>
