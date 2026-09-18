@@ -14,9 +14,8 @@ export const messages: Record<
     };
     langSwitcher: string;
     home: {
-      eyebrow: string;
       headline: string;
-      subline: string;
+      subline: string[];
       name: string;
       imageAlt: string;
     };
@@ -50,10 +49,11 @@ export const messages: Record<
     },
     langSwitcher: 'Language',
     home: {
-      eyebrow: 'Senior Software Engineer',
-      headline: 'Backend systems that scale',
-      subline:
-        'Results-driven Senior Software Engineer with extensive experience in designing and implementing scalable solutions, particularly in e-commerce platforms. Proficient in Node.js and modern web technologies, I have successfully developed high-traffic backend services and managed complex microservices architectures. My strong collaboration with cross-functional teams ensures delivery of robust and innovative products that meet business needs. Holding a Master\'s degree in Computer Science, I blend technical acumen with a commitment to code quality and system optimization.',
+      headline: 'Senior Software Engineer',
+      subline: [
+        'Experience in designing and developing scalable backend systems for e-commerce, particularly high-traffic services that require reliability and strong performance. Strong expertise in Node.js, microservice architecture, and designing systems that scale effectively while remaining maintainable.',
+        'Hands-on experience solving performance, reliability, and production challenges, as well as simplifying complex existing architectures. Experienced in working across technical and business teams and making technical decisions that balance engineering quality with business needs.',
+      ],
       name: 'Tomasz Paczka',
       imageAlt: 'Portrait of Tomasz Paczka',
     },
@@ -102,10 +102,11 @@ export const messages: Record<
     },
     langSwitcher: 'Język',
     home: {
-      eyebrow: 'Senior Software Engineer',
-      headline: 'Systemy backendowe, które się skalują',
-      subline:
-        'Zorientowany na wyniki Senior Software Engineer z bogatym doświadczeniem w projektowaniu i wdrażaniu skalowalnych rozwiązań, szczególnie w platformach e-commerce. Biegły w Node.js i nowoczesnych technologiach webowych, z sukcesem tworzyłem backendowe usługi o dużym ruchu i zarządzałem złożonymi architekturami mikroserwisowymi. Silna współpraca z zespołami międzyfunkcyjnymi zapewnia dostarczanie solidnych i innowacyjnych produktów odpowiadających potrzebom biznesowym. Mając tytuł magistra informatyki, łączę wiedzę techniczną z dbałością o jakość kodu i optymalizację systemów.',
+      headline: 'Senior Software Engineer',
+      subline: [
+        'Doświadczenie w projektowaniu i rozwijaniu skalowalnych systemów backendowych dla e-commerce, w szczególności usług obsługujących duży ruch i wymagających wysokiej niezawodności. Mocne doświadczenie w Node.js, architekturze mikroserwisowej oraz projektowaniu systemów, które dobrze radzą sobie ze skalowaniem i złożonością.',
+        'Praktyczna znajomość rozwiązywania problemów związanych z wydajnością, niezawodnością i utrzymaniem systemów produkcyjnych, a także upraszczaniem istniejących architektur. Doświadczenie we współpracy z zespołami technicznymi i biznesowymi oraz podejmowaniu decyzji technicznych z uwzględnieniem zarówno jakości rozwiązania, jak i potrzeb biznesowych.',
+      ],
       name: 'Tomasz Paczka',
       imageAlt: 'Portret Tomasza Paczki',
     },

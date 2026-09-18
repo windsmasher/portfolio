@@ -207,10 +207,6 @@ a {
   max-width: min(36rem, 100%);
 }
 
-.home-eyebrow {
-  margin-bottom: 1.25rem;
-}
-
 .home-portrait-wrap {
   width: min(280px, 72vw);
   margin: 0 auto;
@@ -240,7 +236,8 @@ a {
   font-weight: 400;
   line-height: 1.65;
   color: var(--muted);
-  text-align: left;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .home-name {

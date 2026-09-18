@@ -34,10 +34,10 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Gliwice',
         period: 'Sep 2025 — present',
         bullets: [
-          'Scalable backend services with Node.js and GraphQL',
-          'High-traffic e-commerce for airport retail platforms',
-          'Cross-functional delivery of business-critical features',
-          'Code quality through reviews, testing, and solid engineering practices',
+          'Designed and developed scalable backend services using Node.js and GraphQL',
+          'Built and maintained high-traffic e-commerce systems for airport retail platforms',
+          'Collaborated with cross-functional teams to deliver business-critical features',
+          'Ensured code quality through reviews, testing, and best engineering practices',
         ],
       },
       {
@@ -46,11 +46,11 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Saudi Arabia',
         period: 'Nov 2025 — Jun 2026',
         bullets: [
-          'Built a full e-commerce platform from scratch in a small, high-impact team',
-          'Backend and frontend architecture on Medusa v2',
-          'Scalable APIs and business logic with Node.js and modern web stack',
-          'End-to-end ownership from system design to production',
-          'Close collaboration with product and business stakeholders',
+          'Built a full-featured e-commerce platform from scratch in a small, high-impact engineering team',
+          'Designed and implemented backend and frontend architecture based on Medusa v2 boilerplate',
+          'Developed scalable APIs and business logic using Node.js and modern web technologies',
+          'Owned end-to-end product development, from system design to production deployment',
+          'Collaborated closely with product and business stakeholders to deliver core platform features',
         ],
       },
       {
@@ -59,11 +59,11 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Los Angeles',
         period: 'Aug 2022 — Aug 2025',
         bullets: [
-          'Large-scale backend of ~300 microservices, mainly Node.js and NestJS',
-          'Inter-service messaging with RabbitMQ and Kafka',
-          'MongoDB, PostgreSQL, ScyllaDB, TimescaleDB, and Redis',
-          'Supported a mobile-first product (iOS / Android), strong U.S. app-store presence',
-          'Scaled to nearly 5 million orders (over 2M in 2024), USA and Canada',
+          'Contributed to the development and maintenance of a large-scale backend system consisting of ~300 microservices, primarily built with Node.js and NestJS',
+          'Enabled seamless inter-service communication using RabbitMQ and Kafka, ensuring high reliability and scalability',
+          'Worked with a diverse tech stack, including MongoDB, PostgreSQL, ScyllaDB, TimescaleDB, and Redis, optimizing performance across various use cases',
+          'Supported a mobile-first application with a strong presence on iOS and Android, consistently ranking high in U.S. app charts',
+          'Scaled the system to handle nearly 5 million orders, with over 2 million placed in 2024 alone, serving users in the USA and Canada',
         ],
         image: {
           src: '/images/career/flip-shutdown.png',
@@ -76,8 +76,8 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Gliwice',
         period: 'Sep 2021 — Aug 2022',
         bullets: [
-          'Backend in Node.js with Express and NestJS for a UK airport-related client',
-          'Microservices-oriented design and RESTful APIs',
+          'Built backend services in Node.js with Express and NestJS for a UK airport-related company',
+          'Introduced to microservices architecture, focusing on modular design and RESTful APIs',
         ],
       },
       {
@@ -85,8 +85,8 @@ export const careerContent: Record<Locale, CareerBundle> = {
         company: 'ActivNet',
         period: 'Jan 2022 — May 2022',
         bullets: [
-          'Part-time backend work on a small Node.js application',
-          'Core features and clearer code structure',
+          'Part-time backend development in a small-scale application using Node.js',
+          'Assisted in implementing core features and improving code structure',
         ],
       },
       {
@@ -95,7 +95,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Kraków',
         period: 'Jun 2021 — Sep 2021',
         bullets: [
-          'Node.js on AWS Lambda — serverless backends and cloud integration',
+          'Worked briefly on a project using Node.js with AWS Lambda, focusing on serverless backend functions and cloud integration',
         ],
       },
       {
@@ -104,7 +104,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Katowice',
         period: 'Nov 2019 — Jun 2021',
         bullets: [
-          'Backend for 5+ PWA projects, mostly solo — Node.js, NestJS, SQL databases',
+          'Developed backend for over five PWA projects, working mostly independently with Node.js, NestJS, and SQL databases',
         ],
       },
       {
@@ -113,7 +113,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Mysłowice',
         period: 'Mar 2019 — Nov 2019',
         bullets: [
-          'Frontend: migrating the app from AngularJS to modern Angular',
+          'Frontend development focused on rewriting the application from AngularJS to modern Angular',
         ],
       },
     ],
@@ -134,10 +134,10 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Gliwice',
         period: 'wrz 2025 — obecnie',
         bullets: [
-          'Skalowalne usługi backendowe w Node.js i GraphQL',
-          'Systemy e-commerce o dużym ruchu dla retailu lotniskowego',
-          'Realizacja krytycznych funkcji w zespole międzyfunkcyjnym',
-          'Jakość kodu: przeglądy, testy, dobre praktyki inżynierskie',
+          'Projektowanie i rozwijanie skalowalnych usług backendowych z użyciem Node.js i GraphQL',
+          'Budowa i utrzymanie systemów e-commerce o dużym ruchu dla platform retailu lotniskowego',
+          'Współpraca z zespołami międzyfunkcyjnymi przy dostarczaniu krytycznych funkcji biznesowych',
+          'Zapewnianie jakości kodu poprzez przeglądy, testy i najlepsze praktyki inżynierskie',
         ],
       },
       {
@@ -146,11 +146,11 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Arabia Saudyjska',
         period: 'lis 2025 — cze 2026',
         bullets: [
-          'Budowa platformy e-commerce od zera w małym, efektywnym zespole',
-          'Architektura backendu i frontendu oparta o Medusa v2',
-          'Skalowalne API i logika biznesowa w Node.js i nowoczesnym stacku webowym',
-          'Odpowiedzialność end-to-end: od projektu systemu do produkcji',
-          'Ścisła współpraca z productem i stroną biznesową',
+          'Budowa kompletnej platformy e-commerce od zera w małym, wysoce efektywnym zespole inżynierskim',
+          'Projektowanie i wdrażanie architektury backendu i frontendu na bazie boilerplate\'u Medusa v2',
+          'Rozwijanie skalowalnych API i logiki biznesowej z użyciem Node.js i nowoczesnych technologii webowych',
+          'Odpowiedzialność end-to-end za rozwój produktu — od projektu systemu do wdrożenia produkcyjnego',
+          'Ścisła współpraca z interesariuszami produktowymi i biznesowymi przy dostarczaniu kluczowych funkcji platformy',
         ],
       },
       {
@@ -159,11 +159,11 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Los Angeles',
         period: 'sie 2022 — sie 2025',
         bullets: [
-          'Rozbudowany backend: ~300 mikroserwisów, głównie Node.js i NestJS',
-          'Komunikacja między usługami: RabbitMQ i Kafka',
-          'MongoDB, PostgreSQL, ScyllaDB, TimescaleDB i Redis',
-          'Wsparcie aplikacji mobile-first (iOS / Android), silna pozycja w rankingach w USA',
-          'Skala: blisko 5 mln zamówień (ponad 2 mln w 2024), USA i Kanada',
+          'Udział w rozwoju i utrzymaniu rozbudowanego systemu backendowego złożonego z ok. 300 mikroserwisów, głównie w Node.js i NestJS',
+          'Zapewnianie płynnej komunikacji między usługami z użyciem RabbitMQ i Kafki, gwarantując wysoką niezawodność i skalowalność',
+          'Praca z różnorodnym stackiem technologicznym, w tym MongoDB, PostgreSQL, ScyllaDB, TimescaleDB i Redis, optymalizując wydajność w różnych scenariuszach',
+          'Wsparcie aplikacji mobile-first z silną obecnością na iOS i Android, stale wysoko w rankingach w USA',
+          'Skalowanie systemu do obsługi blisko 5 milionów zamówień, z ponad 2 milionami samego 2024 roku, dla użytkowników w USA i Kanadzie',
         ],
         image: {
           src: '/images/career/flip-shutdown.png',
@@ -176,8 +176,8 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Gliwice',
         period: 'wrz 2021 — sie 2022',
         bullets: [
-          'Backend w Node.js (Express, NestJS) dla klienta z branży lotniskowej w UK',
-          'Architektura w stylu mikroserwisów i REST API',
+          'Budowa usług backendowych w Node.js z Express i NestJS dla firmy z branży lotniskowej w UK',
+          'Wdrożenie do architektury mikroserwisowej, z naciskiem na modularny design i RESTful API',
         ],
       },
       {
@@ -185,8 +185,8 @@ export const careerContent: Record<Locale, CareerBundle> = {
         company: 'ActivNet',
         period: 'sty 2022 — maj 2022',
         bullets: [
-          'Backend w niepełnym wymiarze godzin — mała aplikacja w Node.js',
-          'Wdrażanie kluczowych funkcji i porządkowanie struktury kodu',
+          'Praca w niepełnym wymiarze godzin przy małej aplikacji z użyciem Node.js',
+          'Wsparcie przy wdrażaniu kluczowych funkcji i poprawie struktury kodu',
         ],
       },
       {
@@ -195,7 +195,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Kraków',
         period: 'cze 2021 — wrz 2021',
         bullets: [
-          'Node.js na AWS Lambda — funkcje serverless i integracja z chmurą',
+          'Krótka praca nad projektem z użyciem Node.js i AWS Lambda, skupiona na serverless backendzie i integracji z chmurą',
         ],
       },
       {
@@ -204,7 +204,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Katowice',
         period: 'lis 2019 — cze 2021',
         bullets: [
-          'Backend do ponad pięciu projektów PWA, głównie samodzielnie — Node.js, NestJS, bazy SQL',
+          'Rozwój backendu dla ponad pięciu projektów PWA, w większości samodzielnie — z użyciem Node.js, NestJS i baz SQL',
         ],
       },
       {
@@ -213,7 +213,7 @@ export const careerContent: Record<Locale, CareerBundle> = {
         location: 'Mysłowice',
         period: 'mar 2019 — lis 2019',
         bullets: [
-          'Frontend: przepisanie aplikacji z AngularJS na nowoczesny Angular',
+          'Rozwój frontendu skoncentrowany na przepisaniu aplikacji z AngularJS na nowoczesny Angular',
         ],
       },
     ],

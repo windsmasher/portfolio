@@ -41,7 +41,6 @@ export default function HomePage({ params }: HomePageProps) {
     <SiteChrome locale={locale}>
       <main className="home-main">
         <div className="container home-inner">
-          <p className="eyebrow home-eyebrow">{t.home.eyebrow}</p>
           <div className="home-portrait-wrap">
             <Image
               src="/images/headshot.png"
@@ -54,7 +53,11 @@ export default function HomePage({ params }: HomePageProps) {
             />
           </div>
           <h1 className="home-headline">{t.home.headline}</h1>
-          <p className="home-subline">{t.home.subline}</p>
+          {t.home.subline.map((paragraph) => (
+            <p key={paragraph} className="home-subline">
+              {paragraph}
+            </p>
+          ))}
           <p className="home-name">{t.home.name}</p>
         </div>
       </main>
